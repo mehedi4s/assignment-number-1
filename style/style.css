@@ -13,6 +13,7 @@
     width: 83%;
     max-width: 1320px;
      margin: 0 auto; 
+     margin-bottom: 120px;
      
 
 
@@ -20,7 +21,7 @@
 
 .new-year{
     background-image: url('../resources/Banner\ Image.png');
-    height: 100vh;
+    /* height: 100vh; */
     background-repeat: no-repeat;
     margin-top: 50px;
 }
@@ -61,7 +62,7 @@
     font-weight: 700;
     margin-bottom: 48px;
 }
-.section2-title p{
+.section2-title .section-para{
     color: #F00;
     font-family: Inter;
     font-size: 24px;
@@ -83,4 +84,45 @@
     margin: 0 auto;
 }
 
+.party{
+    background-image: url('../resources/Vectorrr.png');
+    background-repeat: no-repeat;
+}
 
+.party-text{
+    background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+}
+.party-title{
+     padding: 126px;
+    
+}
+.party-title h2{
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 88px; 
+    letter-spacing: 7.04px;
+    width: 642px;
+    margin-bottom: 0;
+}
+.party-title p{
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px; 
+    width: 697px;
+    margin-top: 24px;
+    margin-bottom: 0;
+}
+.party-title h5{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 48px;
+    margin-left: 32px;
+    
+}
