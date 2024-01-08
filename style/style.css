@@ -324,7 +324,7 @@
 }
 .portfolio-item img:hover{
    box-shadow: 1px 1px 20px rgb(95, 52, 236);
-
+    border-radius: 18px;
     background-color: #FFF;
 }
 
