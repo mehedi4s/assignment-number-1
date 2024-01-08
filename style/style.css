@@ -83,7 +83,7 @@
     height: 500px;
     margin: 0 auto;
 }
-
+/* section 3 */
 .party{
     background-image: url('../resources/Vectorrr.png');
     background-repeat: no-repeat;
@@ -126,6 +126,150 @@
     margin-left: 32px;
     
 }
+
+/* section 4 */
+
+.hotel{
+    text-align: center;
+    padding: 100px 385px;
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+}
+.hotel, .hotel-name{
+    color: #070211;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+    text-transform: capitalize;
+}
+.hotel, .hotel-name span{
+    color: #F00;
+}
+#join{
+    margin-top: 48px;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 8px;
+    background: #F00;
+    padding: 16px 32px;
+    border: none;
+}
+
+/* section 5 style */
+
+.new-offer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.new-offer .offer-title .best{
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    text-align: start;
+    margin-bottom: 16px;
+
+}
+.new-offer .offer-title h2{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+    margin-bottom: 22px;
+}
+.new-offer .offer-title .offer-para{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px; 
+    width: 393px;
+}
+
+.offer-pic{
+    background: #FFF;
+    border-radius: 463px;
+    border: 15px solid #F00;
+    margin-right: 118px;
+    margin-left: 70px;
+    padding: 40px;
+
+}
+.new-offer .offer-para h2{
+    color: #F00;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.new-offer .offer-para p{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    width: 276px;
+    margin-bottom: 43px;
+}
+.new-offer .offer-para img{
+    width: 140px;
+    height: 140px;
+}
+
+
+/* section 6 style */
+
+.holiday{
+     text-align: center;
+}
+.holiday h5{
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 16px;
+
+}
+.holiday  h2{
+    color: #F00;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+   
+}
+.holiday span{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+
+}
+.holiday-para{
+     color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px; 
+    width: 1068px; 
+    padding: 16px 126px 69px 126px;
+
+    
+}
+
+
+
+
+
 
 /* portfolio section style */
 
