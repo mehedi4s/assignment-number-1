@@ -91,9 +91,11 @@
 
 .party-text{
     background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+    display: flex;
+    justify-content: space-around;
 }
 .party-title{
-     padding: 126px;
+     padding: 126px 39px 126px 126px;
     
 }
 .party-title h2{
@@ -125,6 +127,13 @@
     margin-top: 48px;
     margin-left: 32px;
     
+}
+
+.party-text img{
+    padding: 68px 138px 68px 39px; 
+
+
+
 }
 
 /* section 4 */
@@ -265,9 +274,15 @@
 
     
 }
+.group{
+    background-image: none;
+}
 
-
-
+.holiday-pic{
+    background-image: url('../resources/Rectangle\ 2.png'), url('../resources/Rectangle\ 1.png');
+    background-repeat: no-repeat;
+    background-position: bottom, right bottom;
+}
 
 
 
